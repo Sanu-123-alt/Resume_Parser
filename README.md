@@ -16,6 +16,11 @@ basic candidate details such as name, email, phone, skills, and experience.
 - PyPDF2
 - python-docx
 
+## Limitations
+- Only text-based PDF & DOCX parsing.
+- Scanned PDFs not supported (no OCR).
+- Extracted fields: name, email, phone, skills, experience.
+
 ## Setup
 ```bash
 pip install -r requirements.txt
